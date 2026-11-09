@@ -1,0 +1,9 @@
+Test project /home/lyf67/raft-kv/build-release
+    Start 1: unit
+1/2 Test #1: unit .............................   Passed    0.07 sec
+    Start 2: cluster
+2/2 Test #2: cluster ..........................   Passed   19.42 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  19.50 sec

@@ -1,0 +1,13 @@
+{
+  "src/raft.cpp": "9b83b9796afbe692d26aed983293e5cf4ebd9c93321a2d8b79aaea1165811da4",
+  "src/codec.hpp": "434f7df1c80edddc1558228e7e005d83772ddbdde97724d87400d4f6443cc82b",
+  "src/transport.cpp": "14d72fa4fc8b16a75b7576727361a21c2ebcea7e939cac6c5661417efc9987fb",
+  "src/transport.hpp": "e8c35f71b3d4ae906427b3f75b38ac65c9818c8e17df5655cb0098e7980805b5",
+  "src/main.cpp": "1db0e263375a0cb6f1c0aa407bb2caeb980686ee0be8c111422d5fb3f7e405b7",
+  "src/raft.hpp": "94bf59690b270fbbb9728074d8f1d2875521bcfe21458e5adbc06c47dbec46be",
+  "src/storage.hpp": "83ef6257c9458fe81d7e603e95448729b64d39c1feaf0fab60f7e68a328632fd",
+  "src/storage.cpp": "c9c1b466eb0f7c1a32f6621a13e1bc1d962f04ba04f44ef78fbf0b8a73702f1c",
+  "tests/unit.cpp": "6b659712b385a283ffcbc5a23d0039e0b900896f0c223a2e12dcb220d6fd375b",
+  "tests/integration.py": "c07e4c1afc1d3c0b62889876625c4a9448a21c15c82448f6e011bc47eceff2f7",
+  "tools/benchmark.py": "9db51a401f48b4bffc01d671258028f0b4ed3833770ae59cfdc8f79d6f46ec87"
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "3 processes, TCP connection per operation, sequential writes, majority fsync, snapshot every 32",
+  "excludes": "startup/election, full restart and verification",
+  "rounds": [
+    {
+      "round": 1,
+      "operations": 50,
+      "value_bytes": 64,
+      "seconds": 1.9344359899987467,
+      "writes_per_second": 25.847327209846007,
+      "p50_ms": 38.72302299714647,
+      "p95_ms": 40.74474899971392,
+      "p99_ms": 45.119877999241,
+      "restart_verified": true
+    },
+    {
+      "round": 2,
+      "operations": 50,
+      "value_bytes": 64,
+      "seconds": 1.942295701999683,
+      "writes_per_second": 25.74273317318403,
+      "p50_ms": 39.2379599979904,
+      "p95_ms": 44.6314419968985,
+      "p99_ms": 48.24210600054357,
+      "restart_verified": true
+    },
+    {
+      "round": 3,
+      "operations": 50,
+      "value_bytes": 64,
+      "seconds": 1.9333262470026966,
+      "writes_per_second": 25.862163759229333,
+      "p50_ms": 39.00432699811063,
+      "p95_ms": 43.2772060012212,
+      "p99_ms": 43.74658500091755,
+      "restart_verified": true
+    }
+  ],
+  "median_writes_per_second": 25.847327209846007
+}

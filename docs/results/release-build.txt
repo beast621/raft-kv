@@ -1,0 +1,9 @@
+[ 12%] Building CXX object CMakeFiles/raftkv_core.dir/src/raft.cpp.o
+[ 25%] Linking CXX static library libraftkv_core.a
+[ 50%] Built target raftkv_core
+[ 75%] Building CXX object CMakeFiles/unit_tests.dir/tests/unit.cpp.o
+[ 75%] Building CXX object CMakeFiles/raftkv.dir/src/main.cpp.o
+[ 87%] Linking CXX executable raftkv
+[ 87%] Built target raftkv
+[100%] Linking CXX executable unit_tests
+[100%] Built target unit_tests

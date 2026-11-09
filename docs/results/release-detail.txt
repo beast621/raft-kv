@@ -1,0 +1,45 @@
+Start testing: Nov 09 16:22 CST
+----------------------------------------------------------
+1/2 Testing: unit
+1/2 Test: unit
+Command: "/home/lyf67/raft-kv/build-release/unit_tests"
+Directory: /home/lyf67/raft-kv/build-release
+"unit" start time: Nov 09 16:22 CST
+Output:
+----------------------------------------------------------
+PASS codec, vote freshness, dedup, deletion, snapshots, locking, corruption, crash publication, write failure
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"unit" end time: Nov 09 16:22 CST
+"unit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: cluster
+2/2 Test: cluster
+Command: "/usr/bin/python3" "/home/lyf67/raft-kv/tests/integration.py" "/home/lyf67/raft-kv/build-release/raftkv"
+Directory: /home/lyf67/raft-kv/build-release
+"cluster" start time: Nov 09 16:22 CST
+Output:
+----------------------------------------------------------
+PASS three-process election 2
+PASS overwrite, tombstone, dedup, session sequence and UTF-8
+PASS follower redirect, fragmented TCP and oversized frame rejection
+PASS concurrent clients and sorted half-open range read
+PASS CLI redirect and live data-directory exclusivity
+PASS bounded concurrent read/write/delete history is linearizable
+PASS snapshot creation, log truncation and InstallSnapshot catch-up
+PASS SIGKILL leader, re-election and acknowledged-write preservation
+PASS paused old leader rejoins higher-term majority
+PASS minority rejects read/write; conflicting uncommitted tail repaired
+PASS all-node abrupt restart, deletion and dedup recovery
+<end of output>
+Test time =  19.42 sec
+----------------------------------------------------------
+Test Passed.
+"cluster" end time: Nov 09 16:23 CST
+"cluster" time elapsed: 00:00:19
+----------------------------------------------------------
+
+End testing: Nov 09 16:23 CST
